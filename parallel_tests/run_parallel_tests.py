@@ -3,8 +3,8 @@ import sys
 import subprocess
 
 try:
-	file_name = sys.argv[1]
-	json_name = sys.argv[2]
+	parallel.py = sys.argv[1]
+	browsers.json = sys.argv[2]
 except IndexError:
 	print("Please provide test script and browserconfig as first and second argument, respectively, from command line.")
 	sys.exit(1)
